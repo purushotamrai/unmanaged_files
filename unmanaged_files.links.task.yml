@@ -1,0 +1,10 @@
+unmanaged_files.list:
+  route_name: 'unmanaged_files.list'
+  base_route: 'unmanaged_files.list'
+  title: 'List/Delete Unmanaged Files'
+  weight: 0
+unmanaged_files.settings:
+  route_name: 'unmanaged_files.settings'
+  base_route: 'unmanaged_files.list'
+  title: 'Settings'
+  weight: 10

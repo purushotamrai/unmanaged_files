@@ -1,0 +1,11 @@
+unmanaged_files.list:
+  title: 'Unmanaged Files List'
+  route_name: unmanaged_files.list
+  description: 'View/Delete Unmanaged Files'
+  parent: system.admin_config_media
+
+unmanaged_files.settings:
+  title: 'Settings'
+  route_name: unmanaged_files.settings
+  description: 'Unmanaged Files Configurations'
+  parent: unmanaged_files.list

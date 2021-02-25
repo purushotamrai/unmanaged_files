@@ -1,0 +1,7 @@
+services:
+  unmanaged_files.manager:
+    class: Drupal\unmanaged_files\UnmanagedFilesManager
+    arguments: ['@database', '@unmanaged_files.file_system', '@config.factory']
+  unmanaged_files.file_system:
+    class: Drupal\unmanaged_files\File\FileSystem
+    arguments: ['@stream_wrapper_manager', '@settings', '@logger.channel.file']
